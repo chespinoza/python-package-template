@@ -18,7 +18,7 @@ Contains
 * _.rpm generation_
 
 
-Commands
+More commands
 * **make test** - run all tests
 * **make deb** - build Debian package
 * **make source** - build source tarball
