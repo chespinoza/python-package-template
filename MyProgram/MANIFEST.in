@@ -1,0 +1,14 @@
+# http://docs.python.org/2/distutils/sourcedist.html#commands
+#include README.txt
+#include setup.py
+#include setup.cfg
+#include test/test*.py
+#include *.txt
+
+#global-include *.py
+
+#recursive-include src *.txt *.py
+#recursive-include src *.gif *.png *.jpg *.cfg *.xml
+
+#prune build
+#prune dist
