@@ -42,7 +42,7 @@ setup(name='my_program',
                    'Topic :: Internet :: WWW/HTTP',
                   ],
                   
-      #setup_requires = ['python-stdeb'],
+      #setup_requires = ['python-stdeb', 'fakeroot', 'python-all'],
       install_requires = ['setuptools'],
       
       #test_loader='unittest:TestLoader',
