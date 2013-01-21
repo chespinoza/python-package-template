@@ -29,21 +29,21 @@ Start template for python package.
 
 
         .
-        |-- MyProgram
-        |   |-- bin
-        |   |   `-- my_program
+        |-- MyProgram/
+        |   |-- bin/
+        |   |   `-- my_program*
         |   |-- CHANGES.txt
-        |   |-- docs
+        |   |-- docs/
         |   |   `-- doc.txt
         |   |-- LICENSE.txt
         |   |-- Makefile
-        |   |-- my_program
+        |   |-- my_program/
+        |   |   |-- data/
+        |   |   |   `-- some_data.html
         |   |   |-- __init__.py
-        |   |   |-- reports
-        |   |   |   `-- plat_p.html
-        |   |   |-- submodule
+        |   |   |-- submodule/
         |   |   |   `-- __init__.py
-        |   |   |-- tests
+        |   |   |-- tests/
         |   |   |   |-- __init__.py
         |   |   |   `-- test_utils.py
         |   |   `-- utils.py
