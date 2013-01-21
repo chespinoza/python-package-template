@@ -4,12 +4,12 @@ python-package-template
 Start template for python package.
 
 
-Concept
+### Concept ###
 * **One location for settings** - all settings specified in **setup.py**
 * **Simple usage** - one command: **make**
 
 
-Contains
+### Contains ###
 * setup.py
 * Makefile
 * tests
@@ -18,7 +18,7 @@ Contains
 * _.rpm generation_
 
 
-More commands
+### More commands ###
 * **make test** - run all tests
 * **make deb** - build Debian package
 * **make source** - build source tarball
