@@ -5,9 +5,9 @@ Start template for python package.
 
 
 Concept
-* one location for settings
+* one location for settings  
   _all settings specified in setup.py_
-* simple usage
+* simple usage  
   _one command_
 
 
