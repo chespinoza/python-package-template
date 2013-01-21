@@ -10,15 +10,7 @@ source:
 	$(PYTHON) setup.py sdist
 
 deb:
-	$(PYTHON) setup.py  --command-packages=stdeb.command sdist_dsc --guess-conflicts-provides-replaces=True bdist_deb
-	#
-	rm -r debian || true
-	dh_make -s -n -c blank -e "build <build@loggly.org>" -p "$(NAME)_$(VERSION)" < /dev/null
-	debuild -uc -us -b
-	#
-	$(PYTHON) setup.py sdist
-	mv dist/*.tar.gz ../
-	dpkg-buildpackage -i -I -rfakeroot
+	$(PYTHON) setup.py --command-packages=stdeb.command bdist_deb
 
 rpm:
 	$(PYTHON) setup.py bdist_rpm --post-install=rpm/postinstall --pre-uninstall=rpm/preuninstall
@@ -27,7 +19,7 @@ install:
 	$(PYTHON) setup.py install --install-layout=deb
 
 test:
-	$(PYTHON) setup.py test
+	unit2 discover -s $(NAME) -t .
 
 check:
 	find $(NAME) -name \*.py | xargs pylint --errors-only --reports=n

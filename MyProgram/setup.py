@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-import ez_setup
-ez_setup.use_setuptools()
-
 from setuptools import setup, find_packages
 
 
@@ -45,9 +42,9 @@ setup(name='my_program',
                    'Topic :: Internet :: WWW/HTTP',
                   ],
                   
-      setup_requires = [],
+      #setup_requires = ['python-stdeb'],
       install_requires = ['setuptools'],
       
       #test_loader='unittest:TestLoader',
-      test_suite = 'my_program.test.test.suite'
+      #test_suite = 'my_program.test.test.suite'
      )
