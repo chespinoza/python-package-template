@@ -5,8 +5,10 @@ Start template for python package.
 
 
 Concept
-* all described in setup.py
-
+* one location for settings
+  _all settings specified in setup.py_
+* simple usage
+  _one command_
 
 
 Contains
@@ -15,7 +17,7 @@ Contains
 * tests
 * source distributive generation
 * .deb generation
-* .rpm generation
+* _.rpm generation_
 
 
 Commands
