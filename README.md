@@ -28,27 +28,27 @@ Start template for python package.
 * **make clean** - clean project, remove *.pyc and other templorary files
 
 
-    .
-    |-- MyProgram
-    |   |-- bin
-    |   |   `-- my_program
-    |   |-- CHANGES.txt
-    |   |-- docs
-    |   |   `-- doc.txt
-    |   |-- LICENSE.txt
-    |   |-- Makefile
-    |   |-- my_program
-    |   |   |-- __init__.py
-    |   |   |-- reports
-    |   |   |   `-- plat_p.html
-    |   |   |-- submodule
-    |   |   |   `-- __init__.py
-    |   |   |-- tests
-    |   |   |   |-- __init__.py
-    |   |   |   `-- test_utils.py
-    |   |   `-- utils.py
-    |   |-- README.txt
-    |   |-- requirements-dev.txt
-    |   |-- requirements.txt
-    |   `-- setup.py
-    `-- README.md
+        .
+        |-- MyProgram
+        |   |-- bin
+        |   |   `-- my_program
+        |   |-- CHANGES.txt
+        |   |-- docs
+        |   |   `-- doc.txt
+        |   |-- LICENSE.txt
+        |   |-- Makefile
+        |   |-- my_program
+        |   |   |-- __init__.py
+        |   |   |-- reports
+        |   |   |   `-- plat_p.html
+        |   |   |-- submodule
+        |   |   |   `-- __init__.py
+        |   |   |-- tests
+        |   |   |   |-- __init__.py
+        |   |   |   `-- test_utils.py
+        |   |   `-- utils.py
+        |   |-- README.txt
+        |   |-- requirements-dev.txt
+        |   |-- requirements.txt
+        |   `-- setup.py
+        `-- README.md
