@@ -5,8 +5,8 @@ Start template for python package.
 
 
 Concept
-* **One location for settings.** - all settings specified in setup.py
-* **Simple usage** - one command `make`
+* **One location for settings** - all settings specified in **setup.py**
+* **Simple usage** - one command: **make**
 
 
 Contains
