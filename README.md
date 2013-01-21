@@ -9,7 +9,7 @@ Concept
 
 
 
-Quick intro
+Contains
 * setup.py
 * Makefile
 * tests
@@ -18,7 +18,7 @@ Quick intro
 * .rpm generation
 
 
-Detailed
+Commands
 * make test - run all tests
 * make deb - build Debian package
 * make source - build source tarball
