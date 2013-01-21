@@ -13,23 +13,16 @@ setup(name='my_program',
       description='Short description of my_program...',
       long_description='Short description of my_program...',
 
-      #py_modules=['my_program'],
-      #package_dir={'': 'my_program'},
       packages = find_packages(),
       include_package_data = True,
       package_data = {
-        # If any package contains *.txt or *.rst files, include them:
         '': ['*.txt', '*.rst'],
-        # And include any *.msg files found in the 'hello' package, too:
-        'my_program': ['*.msg'],
-        'my_program/reports': ['*.html', '*.css'],
+        'my_program': ['data/*.html', 'data/*.css'],
       },
       exclude_package_data = { '': ['README.txt'] },
       
       scripts = ['bin/my_program'],
-      #eager_resources = ['my_program/reports/plat_p.html'],
       
-      #provides=['my_program'],
       keywords='python tools utils internet www',
       license='GPL',
       classifiers=['Development Status :: 5 - Production/Stable',
@@ -44,7 +37,4 @@ setup(name='my_program',
                   
       #setup_requires = ['python-stdeb', 'fakeroot', 'python-all'],
       install_requires = ['setuptools'],
-      
-      #test_loader='unittest:TestLoader',
-      #test_suite = 'my_program.test.test.suite'
      )
