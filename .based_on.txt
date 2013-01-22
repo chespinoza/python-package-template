@@ -1,0 +1,10 @@
+# Package
+http://jcalderone.livejournal.com/39794.html
+http://guide.python-distribute.org/creation.html
+http://www.debian.org/doc/packaging-manuals/python-policy/
+http://www.producingoss.com/en/index.html
+http://peak.telecommunity.com/DevCenter/setuptools
+http://wiki.debian.org/Python/Packaging
+
+# Module
+https://github.com/kennethreitz/samplemod
