@@ -59,5 +59,5 @@ Start template for python package.
 
 Please, send ideas - [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
 Send issues - [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
-You find bug? - Post it me [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
+You find bug? - post it to me [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
 
