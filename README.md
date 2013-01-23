@@ -5,7 +5,7 @@ Start template for python package.
 
 
 ### Concept ###
-* **One location for settings** - all settings specified in **setup.py**
+* **One location for settings** - all settings specified in **setup.py** only
 * **Simple usage** - one command: **make**
 
 
@@ -26,6 +26,7 @@ Start template for python package.
 * **make install** - install program
 * **make init** - install all requirements
 * **make clean** - clean project, remove *.pyc and other templorary files
+* **make deploy** - create vitrual environment
 
 
         .
@@ -36,9 +37,9 @@ Start template for python package.
         |-- my_program
         |   |-- data
         |   |   `-- some_data.html
-        |   |-- __init__.py
         |   |-- submodule
         |   |   `-- __init__.py
+        |   |-- __init__.py
         |   |-- helpers.py
         |-- tests
         |   |-- __init__.py
