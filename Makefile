@@ -1,4 +1,8 @@
 PYTHON=`which python`
+NAME=`python setup.py --name`
+VERSION=`python setup.py --version`
+SDIST=dist/$(NAME)-$(VERSION).tar.gz
+VENV=/tmp/venv
 
 
 all: check test source deb
@@ -41,6 +45,16 @@ update:
 
 daily:
 	$(PYTHON) setup.py bdist egg_info --tag-date
+
+deploy:
+	# make sdist
+	rm -rf dist
+	python setup.py sdist
+
+	# setup venv
+	rm -rf $(VENV)
+	virtualenv --no-site-packages $(VENV)
+	$(VENV)/bin/pip install $(SDIST)
 
 clean:
 	$(PYTHON) setup.py clean

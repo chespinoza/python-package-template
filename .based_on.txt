@@ -5,6 +5,7 @@ http://www.debian.org/doc/packaging-manuals/python-policy/
 http://www.producingoss.com/en/index.html
 http://peak.telecommunity.com/DevCenter/setuptools
 http://wiki.debian.org/Python/Packaging
+https://github.com/srid/modern-package-template
 
 # Module
 https://github.com/kennethreitz/samplemod

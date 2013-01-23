@@ -29,26 +29,24 @@ Start template for python package.
 
 
         .
-        |-- MyProgram/
-        |   |-- bin/
-        |   |   `-- my_program*
-        |   |-- CHANGES.txt
-        |   |-- docs/
-        |   |   `-- doc.txt
-        |   |-- LICENSE.txt
-        |   |-- Makefile
-        |   |-- my_program/
-        |   |   |-- data/
-        |   |   |   `-- some_data.html
-        |   |   |-- __init__.py
-        |   |   |-- submodule/
-        |   |   |   `-- __init__.py
-        |   |   |-- tests/
-        |   |   |   |-- __init__.py
-        |   |   |   `-- test_utils.py
-        |   |   `-- utils.py
-        |   |-- README.txt
-        |   |-- requirements-dev.txt
-        |   |-- requirements.txt
-        |   `-- setup.py
-        `-- README.md
+        |-- bin
+        |   `-- my_program
+        |-- docs
+        |   `-- doc.txt
+        |-- my_program
+        |   |-- data
+        |   |   `-- some_data.html
+        |   |-- __init__.py
+        |   |-- submodule
+        |   |   `-- __init__.py
+        |   |-- helpers.py
+        |-- tests
+        |   |-- __init__.py
+        |   |-- test_helpers.py
+        |-- Makefile
+        |-- CHANGES.txt
+        |-- LICENSE.txt
+        |-- README.md
+        |-- requirements-dev.txt
+        |-- requirements.txt
+        `-- setup.py

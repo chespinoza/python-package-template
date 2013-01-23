@@ -3,7 +3,7 @@
 
 import unittest
 
-from my_program.utils import fn
+from my_program.helpers import fn
 
 
 class Test(unittest.TestCase):
