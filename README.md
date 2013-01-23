@@ -13,13 +13,13 @@ Start template for python package.
 * **Simple usage** - one command: **make**
 
 
-### Contains ###
-* setup.py
-* Makefile
-* tests
-* source distributive generation
+### Features ###
+* distutils, setuptools setup.py features
+* tests - unittest, pytest
+* source .tar.gz. generation
 * .deb generation
 * _.rpm generation_
+* installation virtualenv and put package into it
 
 
 ### More commands ###
