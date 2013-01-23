@@ -14,12 +14,12 @@ Start template for python package.
 
 
 ### Features ###
-* distutils, setuptools setup.py features
+* setup.py - all distutils, setuptools features
 * tests - unittest, pytest
-* source .tar.gz. generation
+* .tar.gz - source generation
 * .deb generation
 * _.rpm generation_
-* installation virtualenv and put package into it
+* virtualenv - install and put package into it
 
 
 ### More commands ###
@@ -55,3 +55,9 @@ Start template for python package.
         |-- requirements-dev.txt
         |-- requirements.txt
         `-- setup.py
+
+
+Please, send ideas - [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
+Send issues - [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
+You find bug? - Post it me [here](https://github.com/vital-fadeev/python-package-template/issues/new)  
+
