@@ -4,8 +4,8 @@ python-package-template
 Start template for python package.  
 
 ### Usage ###
-1. `git clone git://github.com/vital-fadeev/python-package-template.git`  
-2. write Your nice code.
+1. Run `git clone git://github.com/vital-fadeev/python-package-template.git`
+2. Write Your nice code.
 
 
 ### Concept ###
